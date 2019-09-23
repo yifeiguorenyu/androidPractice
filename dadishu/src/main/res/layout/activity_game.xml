@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cao"
+    android:orientation="vertical"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context=".GameActivity">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="击中数"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"  />
+
+        <ImageView
+            android:id="@+id/iv_14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="倒计时"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+
+        <ImageView
+            android:id="@+id/iv_21"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_22"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_23"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"  />
+
+        <ImageView
+            android:id="@+id/iv_24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+
+
+        <ImageView
+            android:id="@+id/iv_25"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+    </TableRow>
+    <TableRow>
+
+
+        <ImageView
+            android:id="@+id/iv_31"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_32"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_33"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"  />
+
+        <ImageView
+            android:id="@+id/iv_34"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+
+
+        <ImageView
+            android:id="@+id/iv_35"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+    </TableRow>
+    <TableRow>
+
+
+        <ImageView
+            android:id="@+id/iv_41"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_42"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_43"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"  />
+
+        <ImageView
+            android:id="@+id/iv_44"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+
+
+        <ImageView
+            android:id="@+id/iv_45"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="重玩"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_52"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi" />
+
+        <ImageView
+            android:id="@+id/iv_53"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"  />
+
+        <ImageView
+            android:id="@+id/iv_54"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tudi"   />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout>
